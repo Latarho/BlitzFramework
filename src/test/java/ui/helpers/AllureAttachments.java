@@ -1,4 +1,4 @@
-package momentranks.helpers;
+package ui.helpers;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;

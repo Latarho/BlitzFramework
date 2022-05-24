@@ -1,7 +1,7 @@
-package momentranks.helpers;
+package ui.helpers;
 
 import com.codeborne.selenide.Configuration;
-import momentranks.config.Project;
+import ui.config.Project;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
@@ -11,6 +11,7 @@ import java.util.Map;
 public class DriverSettings {
 
     public static void configure() {
+        Configuration.baseUrl = "https://momentranks.com/";
         Configuration.browser = Project.config.browser();
         Configuration.browserVersion = Project.config.browserVersion();
         Configuration.browserSize = Project.config.browserSize();
@@ -18,7 +19,6 @@ public class DriverSettings {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         ChromeOptions chromeOptions = new ChromeOptions();
 
-        // https://peter.sh/experiments/chromium-command-line-switches/
         chromeOptions.addArguments("--no-sandbox");
         chromeOptions.addArguments("--disable-infobars");
         // Disables pop-up blocking.

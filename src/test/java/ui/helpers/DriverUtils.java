@@ -1,7 +1,7 @@
-package momentranks.helpers;
+package ui.helpers;
 
 import com.codeborne.selenide.Selenide;
-import momentranks.config.Project;
+import ui.config.Project;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.remote.RemoteWebDriver;

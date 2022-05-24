@@ -1,4 +1,4 @@
-package momentranks.config;
+package ui.config;
 
 
 import org.aeonbits.owner.Config;
@@ -14,7 +14,7 @@ public interface ProjectConfig extends Config {
     @DefaultValue("chrome")
     String browser();
 
-    @DefaultValue("96.0")
+    @DefaultValue("101.0")
     String browserVersion();
 
     @DefaultValue("1920x1080")

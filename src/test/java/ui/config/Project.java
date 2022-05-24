@@ -1,4 +1,4 @@
-package momentranks.config;
+package ui.config;
 
 import org.aeonbits.owner.ConfigFactory;
 
