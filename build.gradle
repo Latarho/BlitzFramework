@@ -32,7 +32,6 @@ dependencies {
             "io.qameta.allure:allure-selenide:$allureVersion",
             "io.qameta.allure:allure-rest-assured:$allureVersion",
             "org.junit.jupiter:junit-jupiter:$junitVersion",
-            "org.assertj:assertj-core:3.19.0",
             "io.rest-assured:rest-assured:$restAssured",
             "org.assertj:assertj-core:3.22.0",
             "org.aeonbits.owner:owner:1.0.12",
