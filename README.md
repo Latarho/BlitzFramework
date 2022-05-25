@@ -106,7 +106,7 @@ test
 ## <img src="image/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
 
 <p align="center">
-<img title="Telegram bot" src="image/screenshots/telegramNotification.png" >
+<img title="Telegram bot" src="image/screenshots/telegramNotification.JPG" >
 </p>
 
 
