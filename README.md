@@ -40,7 +40,7 @@
 >- [x] Создание курьера (совпадающие логины)
 >- [x] Авторизация (корректные креды)
 >- [x] Авторизация (корректные креды, только логин)
->- [x] Создание курьера (корректный логин, некорректный пароль)
+>- [x] Авторизация (корректный логин, некорректный пароль)
 
 ## <img src="image/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка в Jenkins
 <a target="_blank" href="https://jenkins.autotests.cloud/job/011-Latarho-qa-guru-BlitzFramework/">Jenkins job</a>
