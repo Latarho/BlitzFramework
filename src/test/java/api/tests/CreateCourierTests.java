@@ -11,6 +11,7 @@ import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.response.ValidatableResponse;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static org.apache.http.HttpStatus.*;
@@ -33,6 +34,7 @@ public class CreateCourierTests {
     }
 
     @Test
+    @Tag("api")
     @Description("Create courier with all fields (login, password, firstname)")
     public void createCourierLoginPasswordAndFirstName() {
         Courier courier = Courier.getRandom();
@@ -49,6 +51,7 @@ public class CreateCourierTests {
     }
 
     @Test
+    @Tag("api")
     @Description("Create courier with required fields (login, password)")
     public void createCourierLoginAndPassword() {
         Courier courier = Courier.getRandomWithLoginAndPassword();
@@ -66,6 +69,7 @@ public class CreateCourierTests {
     }
 
     @Test
+    @Tag("api")
     @Description("Create courier with only login")
     public void createCourierLoginOnly() {
         Courier courier = Courier.getRandomWithLogin();
@@ -81,6 +85,7 @@ public class CreateCourierTests {
     }
 
     @Test
+    @Tag("api")
     @Description("Create courier with same login")
     public void createCourierSameLogin() {
         Courier courier = Courier.getRandom();

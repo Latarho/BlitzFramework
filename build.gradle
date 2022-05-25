@@ -60,14 +60,14 @@ tasks.withType(Test) {
     }
 }
 
-task properties_test(type: Test) {
-    useJUnitPlatform{
-        includeTags "properties"
+task ui_tests(type: Test) {
+    useJUnitPlatform {
+        includeTags "ui"
     }
 }
 
-task smoke_test(type: Test) {
-    useJUnitPlatform{
-        includeTags "smoke"
+task api_tests(type: Test) {
+    useJUnitPlatform {
+        includeTags "api"
     }
 }
