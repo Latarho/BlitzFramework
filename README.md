@@ -1,5 +1,4 @@
-# Проект по автоматизации тестирования для <a target="_blank" href="https://momentranks.com/">MomentRanks</a>
-и публичного API <a target="_blank" href="https://qa-scooter.praktikum-services.ru/api/v1">QA-Scooter</a>
+# Проект по автоматизации тестирования для <a target="_blank" href="https://momentranks.com/">MomentRanks</a> и публичного API <a target="_blank" href="https://qa-scooter.praktikum-services.ru/api/v1">QA-Scooter</a>
 
 ## 📃 Содержание:
 
@@ -81,13 +80,13 @@ test
 ### :lady_beetle: Основное окно
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="image/screenshots/allureMainPage.png">
+<img title="Allure Overview Dashboard" src="image/screenshots/allureMainPage.JPG">
 </p>
 
 ### :cherries: Тесты
 
 <p align="center">
-<img title="Allure Tests" src="image/screenshots/allureTestPage.png">
+<img title="Allure Tests" src="image/screenshots/allureTestPage.JPG">
 </p>
 
 ## <img src="image/logo/Allure_TestOps.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://allure.autotests.cloud/launch/12998/?search=W3siaWQiOiJzdGF0dXMiLCJ0eXBlIjoidGVzdFN0YXR1c0FycmF5IiwidmFsdWUiOlsicGFzc2VkIl19XQ%3D%3D&treeId=0">Allure TestOps</a>
@@ -95,13 +94,13 @@ test
 ### :lady_beetle: Результаты запуска тестов
 
 <p align="center">
-<img title="Allure Launches" src="image/screenshots/allureTestOpsMainPage.png">
+<img title="Allure Launches" src="image/screenshots/allureTestOpsMainPage.JPG">
 </p>
 
 ### :cherries: Тест-кейсы
 
 <p align="center">
-<img title="Allure Tests Cases" src="image/screenshots/allureTestOpsTestPage.png">
+<img title="Allure Tests Cases" src="image/screenshots/allureTestOpsTestPage.JPG">
 </p>
 
 ## <img src="image/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
